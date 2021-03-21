@@ -9,6 +9,55 @@
 }
 
 .timer .buttons .button {
-  font-size: 2.7em;
+  font-size: 2.4em;
   color: black;
+}
+
+/*** Responsiveness ***/
+
+/* For medium sizes */
+@media only screen and (max-width: 1200px) {
+  .title {
+    font-size: 4em;
+  }
+
+  .time {
+    font-size: 5em;
+  }
+  
+  .timer .buttons .button {
+    font-size: 2em;
+  }
+}
+
+/* For small sizes */
+@media only screen and (max-width: 800px) {
+  .title {
+    font-size: 2.5em;
+  }
+
+  .time {
+    font-size: 4em;
+  }
+  
+  .timer .buttons .button {
+    font-size: 1.6em;
+  }
+}
+
+/* For small heights */
+@media only screen and (max-height: 600px) {
+
+  .title {
+    font-size: 2.5em;
+  }
+
+  .time {
+    font-size: 4em;
+  }
+  
+  .timer .buttons .button {
+    font-size: 1.6em;
+  }
+
 }
