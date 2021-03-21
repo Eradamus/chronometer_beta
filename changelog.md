@@ -1,3 +1,6 @@
+Version 0.7
+  - Initial design files created
+
 Version 0.6
   - "changelog.md" created
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
   <title>Chronometer Beta - Your Online Stopwatch</title>
   <!-- General CSS -->
   <link rel="stylesheet" href="css/style.css">
@@ -13,9 +13,31 @@
   <link rel="stylesheet" href="css/chronometer.css">
 </head>
 <body>
+  <!-- Contains all items -->
   <div class="container">
-    <h1>Chronometer Beta</h1>
-    <div class="circle"></div>
+
+    <!-- Displays the time -->
+    <div class="circle">
+      <p class="time">00:00</p>
+    </div>
+
+    <!-- Includes the info -->
+    <div class="timer">
+
+      <!-- Main title -->
+      <h1 class="title">Chronometer Beta</h1>
+
+      <!-- Interactive buttons -->
+      <div class="buttons">
+        <button class="button">Start</button>
+        <button class="button">Stop</button>
+      </div>
+      <!-- /buttons -->
+
+    </div>
+    <!-- /timer -->
+
   </div>
+  <!-- /container -->
 </body>
 </html>
