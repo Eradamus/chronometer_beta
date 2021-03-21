@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  /* tests 
+  width: 100%;
+  height: 100vh;
+  background-color: var(--blue-grotto);*/
+}
