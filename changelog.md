@@ -1,3 +1,7 @@
+Version 0.11
+  - New interface image
+  - README.md description fixed
+
 Version 0.10
   - Fixed responsiveness (medium size 1200px -> 1400px)
   - Set medium size screen ".timer {margin-bottom: 3%;}"
