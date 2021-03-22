@@ -76,7 +76,7 @@
 /*** Responsiveness ***/
 
 /* For medium sizes */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
   .circle {
     height: 400px;
     width: 400px;
@@ -84,7 +84,7 @@
 
   .timer {
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     min-width: 70%;
   }
 
