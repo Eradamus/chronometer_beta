@@ -19,7 +19,7 @@
 
     <!-- Displays the time -->
     <div class="circle">
-      <p class="time">00:00</p>
+      <p id="time" class="time">00:00</p>
     </div>
 
     <!-- Includes the info -->
@@ -30,8 +30,8 @@
 
       <!-- Interactive buttons -->
       <div class="buttons">
-        <button class="button">Start</button>
-        <button class="button">Stop</button>
+        <button class="button" id="start" onclick="startTimer()">Start</button>
+        <button class="button" onclick="stopTimer()">Stop</button>
       </div>
       <!-- /buttons -->
 
@@ -40,5 +40,8 @@
 
   </div>
   <!-- /container -->
+
+  <!-- STOPWATCH SCRIPT -->
+  <script src="js/stopwatch.js"></script>
 </body>
 </html>
